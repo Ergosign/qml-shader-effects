@@ -36,7 +36,6 @@ The shader effects moudle require Qt6 at minimum. It has been tested on IOS and 
 
 ### How to use in your project
 
-#TODO: Change Link if on github!
 ```
 git clone origin git@github.com:Ergosign/qml-shader-effects.git
 mkdir build

@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ShaderEffects/ColorOverlayShader.qml</file>
+        <file>ShaderEffects/DropShadowShader.qml</file>
+        <file>ShaderEffects/ShaderSourceProxy.qml</file>
+        <file>ShaderEffects/colorOverlayShader.frag</file>
+        <file>ShaderEffects/dropShadowShader.frag</file>
+        <file>ShaderEffects/dropShadowShader.vert</file>
+        <file>ShaderEffects/opacityMaskShader.frag</file>
+        <file>ShaderEffects/OpacityMaskShader.qml</file>
+        <file>ShaderEffects/ShadowShader.qml</file>
+    </qresource>
+</RCC>

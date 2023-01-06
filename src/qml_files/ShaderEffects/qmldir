@@ -1,0 +1,13 @@
+module ShaderEffects
+
+plugin qml_shader_effects_qt6
+classname QmlShaderEffectsPlugin
+
+plugin qml_shader_effects_qt6
+classname QmlShaderEffectsPlugin
+
+ColorOverlayShader 1.0                       qrc:/ShaderEffects/ColorOverlayShader.qml
+DropShadowShader 1.0                         qrc:/ShaderEffects/DropShadowShader.qml
+ShaderSourceProxy 1.0                        qrc:/ShaderEffects/ShaderSourceProxy.qml
+OpacityMaskShader 1.0                        qrc:/ShaderEffects/OpacityMaskShader.qml
+ShadowShader 1.0                             qrc:/ShaderEffects/ShadowShader.qml

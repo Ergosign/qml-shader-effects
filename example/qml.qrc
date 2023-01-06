@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>OpacityMask_mask.png</file>
+        <file>Original_bug.png</file>
+        <file>Ergosign_dark_RGB.svg</file>
+        <file>animal-duck.svg</file>
+    </qresource>
+</RCC>

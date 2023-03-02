@@ -50,8 +50,8 @@ target_link_libraries(qml_shader_effects_qt6
 set_target_properties(qml_shader_effects_qt6 PROPERTIES
   WIN32_EXECUTABLE TRUE
   MACOSX_BUNDLE TRUE
-  LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/qml/ShaderEffects/"
-  RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/qml/ShaderEffects/"
+  LIBRARY_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/example/ShaderEffects/"
+  RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/example/ShaderEffects/"
 )
 
 if(${BUILD_EXAMPLE})
@@ -83,8 +83,8 @@ add_custom_command(
         TARGET qml_shader_effects_qt6
         COMMAND ${CMAKE_COMMAND} -E copy
                 "${CMAKE_CURRENT_SOURCE_DIR}/src/qml_files/ShaderEffects/qmldir"
-                "${CMAKE_BINARY_DIR}/qml/ShaderEffects/qmldir"
-        BYPRODUCTS ${CMAKE_BINARY_DIR}/qml/ShaderEffects/qmldir
+                "${CMAKE_BINARY_DIR}/example/ShaderEffects/qmldir"
+        BYPRODUCTS ${CMAKE_BINARY_DIR}/example/ShaderEffects/qmldir
 )
 
 # Install files

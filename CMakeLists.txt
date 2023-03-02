@@ -40,7 +40,7 @@ target_include_directories(qml_shader_effects_qt6
 )
 
 target_link_libraries(qml_shader_effects_qt6
-    PUBLIC 
+    PUBLIC
     Qt${QT_VERSION_MAJOR}::Core
     Qt${QT_VERSION_MAJOR}::Quick
     Qt${QT_VERSION_MAJOR}::Widgets

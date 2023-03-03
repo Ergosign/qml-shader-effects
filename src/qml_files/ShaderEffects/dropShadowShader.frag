@@ -21,7 +21,7 @@ void main()
     float softness = 0.6;
     if (radial == 0)
     {
-        float radius = 3.0 / 100.0 * strength;
+        float radius = 1.0 / 100.0 * strength;
         float twoPi = 6.28318530718; // Pi*2
         float quality = 4.0;
 
@@ -40,7 +40,7 @@ void main()
 
         float vignette = smoothstep(radius, radius - softness, 0.33);
         texColor.rgb = mix(texColor.rgb, texColor.rgb * vignette, 0.5);
-        fragColor = vec4(texColor.rgb * targetColor.rgb, texColor.a * 0.5) * qt_Opacity;
+        fragColor = vec4(texColor.rgb * targetColor.rgb, texColor.a * targetColor.a) * qt_Opacity;
     }
     else
     {
@@ -64,6 +64,6 @@ void main()
 
        float vignette = smoothstep(radius, radius - softness, 0.33);
        texColor.rgb = mix(texColor.rgb, texColor.rgb * vignette, 0.5);
-       fragColor = vec4(texColor.rgb * targetColor.rgb, texColor.a * 0.75) * qt_Opacity;
+       fragColor = vec4(texColor.rgb * targetColor.rgb, texColor.a * targetColor.a) * qt_Opacity;
     }
 }

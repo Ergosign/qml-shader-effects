@@ -41,7 +41,7 @@ Item
     property bool transparentBorder: false
 
     /*!
-        Holds the samples count, which is taken per pixel for radial blur calculation.
+        Holds the samples count, which is taken per pixel for blur calculation.
     */
     property int samples: 10
 
